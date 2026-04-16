@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.logout.LogoutSuccessHandl
 
 @Configuration
 @EnableWebSecurity
-class SecurityConfig {
+class   SecurityConfig {
     private final ClientRegistrationRepository clientRegistrationRepository;
 
     SecurityConfig(ClientRegistrationRepository clientRegistrationRepository) {
